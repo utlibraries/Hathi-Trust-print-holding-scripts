@@ -1,0 +1,28 @@
+Hathi 2016 processing notes:
+
+UT Southwestern
+    single-part
+        65542 entries
+            no issues
+    multi-part
+        3135 entries
+            no issues
+    serials
+        3121 entries
+            no issues
+
+UT El Paso
+    single-part
+        961919 entries
+            header line removed
+            blank lines at end of document removed
+    multi-part
+        75 entries
+            
+    serials
+        24354 entries (original count)
+            30 missing OCLC number -> removed
+            2 missing tab between OCLC and local code -> fixed
+            2 missing tab between ISSN and govdoc -> fixed
+            118 invalid govdoc code (a,c,l,m,n,o,u,w,z, <blank>) -> set to '0' (not a government holding)
+        24324 entries (final count)
